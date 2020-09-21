@@ -1,9 +1,12 @@
+# Imports
 import cv2
 import  numpy as np
 
+# Read the original image and template
 messi = cv2.imread("messi5.jpg")
 template = cv2.imread("template.jpg")
 
+# Convert to grayscale
 gray_messi = cv2.cvtColor(messi, cv2.COLOR_BGR2GRAY)
 
 # shape of template
