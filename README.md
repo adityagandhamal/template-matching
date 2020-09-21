@@ -25,4 +25,5 @@
  
  4. Go to the directory of this repo cloned onto your local machine and open cmd.
  
+ 5. Run the python file `template_matching.py` in the cmd.
 
